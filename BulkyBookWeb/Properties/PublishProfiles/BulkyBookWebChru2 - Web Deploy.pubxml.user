@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXlzzzk8qRU6N8irBlB+dUQAAAAACAAAAAAAQZgAAAAEAACAAAAAKPdkvVcoOY18DLKBEUfV8QJqrd6j4TYVRMukppbQRuAAAAAAOgAAAAAIAACAAAADboBrq67s08OCq810qzVifZt+ceICS1jzOiF8BiHIerIAAAAARaO+7vc5CwR5a0u/6lgMfxtuG+AvFx2dJDB1yzOLqc1ZRKzDVdNzJUHh96lJ7QLrFtM6PiHKCBpd6b3Or1/X7TFIrWGjhkCjbVwymSfRK6Ar8Na2mPPatwym8i34ckrrI0+4KUSt7ZPSmmRKii2y73BA19Sw0GylQbkhUaX6wjEAAAACyWoo5yUWLmlJthAxmWK3IdSmspuk9xvUrExi5cZL+UCzJh8D1P261/53HVTgStkn8m6WBwdA6iHLROBgkGsrg</EncryptedPassword>
+    <History>True|2022-10-06T09:20:40.5806589Z;False|2022-10-06T05:12:52.2335521-04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:azure-mvc1-chru.database.windows.net,1433%3bInitial Catalog=azuremvc1_db1-chru%3bPersist Security Info=False%3bUser ID=azureuser%3bPassword=Testing123456%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWeb.Data.ApplicationDbContext">
+      <Value>Server=tcp:azure-mvc1-chru.database.windows.net,1433%3bInitial Catalog=azuremvc1_db1-chru%3bPersist Security Info=False%3bUser ID=azureuser%3bPassword=Testing123456%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
